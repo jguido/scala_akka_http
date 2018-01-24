@@ -1,0 +1,41 @@
+# Binaries
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.war
+*.ear
+*.sar
+*.class
+
+# Maven
+target/
+
+# Robot
+report
+
+# IntelliJ project files
+*.iml
+*.iws
+*.ipr
+.idea/
+
+# eclipse project file
+.settings/
+.classpath
+.project
+*.cache-main
+*.cache-test
+**/*/__pycache__
+
+# Reporting
+log.html
+output.xml
+report.html
+
+# Deployment
+scripts
