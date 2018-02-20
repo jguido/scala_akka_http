@@ -1,4 +1,5 @@
 # scala_akka_http
+This is a boilerplate for starting a new API or wbe project based on AKKA
 
 ## OSS libraries
 
