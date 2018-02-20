@@ -1,6 +1,6 @@
 package com.unrlab.api.services
 
-import akka.actor.ActorSystem
+import akka.actor.{Actor, ActorSystem}
 import akka.http.scaladsl.model.headers.HttpOriginRange
 import akka.http.scaladsl.server.Directives
 import ch.megard.akka.http.cors.scaladsl.settings.CorsSettings

@@ -16,10 +16,10 @@ class HelloServiceSpec extends WordSpec with Matchers with ScalatestRouteTest wi
       }
     }
 
-    "Return BadRequest" in {
+    "Return greeting with no name given" in {
 
       Get("/hello?name=") ~> helloRoute ~> check {
-        status shouldEqual StatusCodes.InternalServerError
+        status shouldEqual StatusCodes.OK
       }
     }
   }
